@@ -1,7 +1,7 @@
 {
   "name": "cron",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "packageManager": "yarn@3.5.0",
   "dependencies": {
