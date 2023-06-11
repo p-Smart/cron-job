@@ -18,7 +18,7 @@ app.get('/test', async (_, res) => {
     })
 
     setInterval( () => {
-      console.log(count++)
+      console.error(count++)
     }, 10000 )
   }
   catch(err){
